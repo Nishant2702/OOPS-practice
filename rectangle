@@ -1,0 +1,12 @@
+class rectangle:
+    def __init__(self,length,breadth):
+        self.length=length
+        self.breadth=breadth
+    def perimeter(self):
+        self.p=2*(self.length+self.breadth)
+        print("The perimeter of the rectangle is {}".format(self.p))
+    def area(self):
+        self.a=self.length*self.breadth
+        print("Area of the recetangle is {}".format(self.a))
+    def display(self):
+        print(self.length,self.breadth,self.p,self.a)
